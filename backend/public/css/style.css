@@ -1,7 +1,5 @@
 *{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 body {
   padding: 50px;
@@ -67,12 +65,14 @@ figure{
 .titulo{
   text-align: center;
 }
+
 .botonAgregar , .botonModificar{
   color: white;
   background-color: #198754;
   padding: 10px;
   border-radius: 10px;
 }
+
 .botonBorrar{
   color: white;
   background-color: #BB2D3B;
@@ -90,6 +90,7 @@ figure{
   width: 40%;
   border-radius: 10px;
 }
+
 input, select{
   width: 60%;
   height: 25px;
